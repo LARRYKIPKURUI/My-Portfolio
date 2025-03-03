@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
             let link = document.createElement("a");
             link.style.display = "none"; 
-            link.href = "/assets/resume.pdf"; // File path for the resume
+            link.href = "./assets/resume.pdf"; // File path for the resume
             link.setAttribute("download", "Larry_Kipkurui_Resume.pdf"); // Suggested filename for download by default
             document.body.appendChild(link);
 
