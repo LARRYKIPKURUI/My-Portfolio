@@ -8,10 +8,10 @@ You need to have Node.js installed on your system
 Fork the repo to have rights then clone to local machine
 
 ## Technologies Used
+
 ->Html for structure
 ->Bootsrtap and CSS for looks
 ->Javascript for functionality
-
 
 ## Contributing
 
