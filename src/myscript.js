@@ -30,28 +30,28 @@ document.addEventListener("DOMContentLoaded", function () {
             event.preventDefault(); // Prevent default anchor behavior (to avoid previous bug)
 
             let link = document.createElement("a");
-            link.style.display = "none"; // Hide the link element
+            link.style.display = "none"; 
             link.href = "/assets/resume.pdf"; // File path for the resume
             link.setAttribute("download", "Larry_Kipkurui_Resume.pdf"); // Suggested filename for download by default
             document.body.appendChild(link);
 
             link.click(); // Trigger the download
 
-            document.body.removeChild(link); // Clean up
+            document.body.removeChild(link); // Clean up after finishing
         });
     }
 
     document.getElementById("sendFeedback").addEventListener("click", function (event) {
-        event.preventDefault(); // Prevents default behavior of <a> 
+        event.preventDefault(); 
     
-        let email = "someone@example.com";
+        let email = "feedback@example.com";
         let subject = "Feedback";
         let body = "Your message here";
     
-        // Encode URI components to handle spaces and special characters. and send as whole
+        // Encode URI components to handle spaces and special characters. and send as whole (will also handle all whitespaces)
         let mailtoLink = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
     
-        window.location.href = mailtoLink; // Redirects to the default email app
+        window.location.href = mailtoLink; // Redirects to the default email app (gmail)>> should also be on the default browser
     });
     
 });
