@@ -60,7 +60,7 @@ const ProjectsSection = () => (
       viewport={{ once: true, margin: "-80px" }}
       transition={{ duration: 0.6 }}
     >
-      <h2 className="section-heading">Featured Projects</h2>
+      <h2 className="section-heading font-bold gradient-text-accent">Featured Projects</h2>
       <div className="section-heading-bar" />
     </motion.div>
 
@@ -78,7 +78,7 @@ const ProjectsSection = () => (
           <div className="h-1 gradient-bg-primary scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left" />
 
           <div className="gradient-bg-subtle p-6 border-b border-border">
-            <h3 className="text-lg font-semibold mb-1">{project.title}</h3>
+            <h3 className="text-lg font-semibold mb-1  text-primary">{project.title}</h3>
             <p className="text-sm text-muted-foreground">{project.subtitle}</p>
           </div>
 

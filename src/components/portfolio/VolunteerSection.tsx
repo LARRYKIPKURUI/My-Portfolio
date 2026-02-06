@@ -26,7 +26,7 @@ const VolunteerSection = () => (
       viewport={{ once: true, margin: "-80px" }}
       transition={{ duration: 0.6 }}
     >
-      <h2 className="section-heading">Volunteer Experience</h2>
+      <h2 className="section-heading font-bold gradient-text-accent">Volunteer Experience</h2>
       <div className="section-heading-bar" />
     </motion.div>
 

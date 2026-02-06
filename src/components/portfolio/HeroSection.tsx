@@ -14,20 +14,20 @@ const HeroSection = () => {
   };
 
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center relative">
+    <section id="home" className="min-h-screen mt-5 flex items-center justify-center relative">
       <div className="section-container text-center pt-20">
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
-          <p className="text-sm font-mono font-medium text-primary tracking-widest uppercase mb-4">
+          <p className="text-sm font-mono font-medium text-primary tracking-widest uppercase mb-4 ">
             Full Stack Developer
           </p>
           <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-6 gradient-text leading-tight">
             Larry Kipkurui
           </h1>
-          <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-4 font-medium">
+          <p className="text-lg md:text-xl  max-w-2xl mx-auto mb-4  font-bold gradient-text-accent">
             Full Stack Software Developer &amp; Cloud Support Engineer Aspirant
           </p>
         </motion.div>

@@ -32,7 +32,7 @@ const SkillsSection = () => (
       viewport={{ once: true, margin: "-80px" }}
       transition={{ duration: 0.6 }}
     >
-      <h2 className="section-heading">Core Competencies</h2>
+      <h2 className="section-heading font-bold gradient-text-accent">Core Competencies</h2>
       <div className="section-heading-bar" />
     </motion.div>
 

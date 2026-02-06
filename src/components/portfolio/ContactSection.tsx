@@ -38,7 +38,7 @@ const ContactSection = () => (
       viewport={{ once: true, margin: "-80px" }}
       transition={{ duration: 0.6 }}
     >
-      <h2 className="section-heading">Get In Touch</h2>
+      <h2 className="section-heading font-bold gradient-text-accent">Get In Touch</h2>
       <div className="section-heading-bar" />
     </motion.div>
 

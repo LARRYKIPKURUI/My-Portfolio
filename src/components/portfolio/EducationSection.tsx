@@ -35,7 +35,7 @@ const EducationSection = () => (
       viewport={{ once: true, margin: "-80px" }}
       transition={{ duration: 0.6 }}
     >
-      <h2 className="section-heading">Education</h2>
+      <h2 className="section-heading font-bold gradient-text-accent">Education</h2>
       <div className="section-heading-bar" />
     </motion.div>
 
